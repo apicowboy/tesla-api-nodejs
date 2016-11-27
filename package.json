@@ -1,0 +1,14 @@
+{
+  "name": "tesla-api-nodejs",
+  "version": "1.0.0",
+  "description": "Simple NodeJS wrapper for Tesla Api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Carsten Jacobsen, API Cowboy",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.79.0",
+  }
+}
