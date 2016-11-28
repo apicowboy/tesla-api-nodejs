@@ -61,13 +61,12 @@ function authenticate (email, password, client_id, client_secret, callback) {
 /**********************************************************************
 *  Function:    vehicleCollection()
 *  Description: List all vehicles associated with the user account
-*  Parameters:  String vehicle_id 
-*               String access_token
+*  Parameters:  String access_token
 *               Function callback
 *  Returns:     Object all associated vehicles
 **********************************************************************/
 
-function vehicleCollection (vehicle_id, access_token, callback) {
+function vehicleCollection (access_token, callback) {
   
   if (!callback) callback = function(error, response, body) {};
   
